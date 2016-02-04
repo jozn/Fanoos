@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="0dp" android:paddingRight="50dp" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:layout_gravity="30" android:id="@id/conversation_userImage_imageView" android:layout_width="-2" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:id="@id/conversation_messageBox_RelativeLayout" android:background="@drawable/balloon_broadcast_incoming_normal" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="19dp" android:layout_marginBottom="5dp" android:layout_alignParentLeft="true">
+        <TextView android:textSize="12sp" android:textColor="#ff646465" android:id="@id/conversation_nickName_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="2dp" android:text="hhhdd" />
+        <TextView android:autoLink="f" android:id="@id/conversation_message_textView" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="receiver test for messenger" android:layout_below="@id/conversation_nickName_textView" />
+        <ImageView android:id="@id/conversation_message_imageView" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:visibility="2" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginBottom="10dp" android:scaleType="1" />
+        <LinearLayout android:layout_gravity="5" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="9sp" android:id="@id/conversation_time_textView" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="2dp" android:layout_marginBottom="2dp" android:text="8:33AM" />
+            <ImageView android:id="@id/conversation_deliveryStatus_ImageView" android:paddingBottom="3dp" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:src="@drawable/message_got_receipt_from_server" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

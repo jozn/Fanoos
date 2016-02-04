@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/verification_background" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/registration_header_RL" android:background="@color/splash_background" android:layout_width="-1" android:layout_height="150dp">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/enter_number_title_fanoos" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:gravity="5" android:id="@id/registration_enter_number_textView" android:paddingRight="40dp" android:layout_width="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/register_phone_number_code_confirm" android:layout_weight="1.0" android:layout_below="@id/registration_header_RL" style="@style/Text.Description" />
+    <EditText android:textColor="#ff000000" android:textColorHint="#ff888888" android:gravity="11" android:id="@id/registration_phone" android:background="0x106000b" android:layout_width="-1" android:layout_height="50dp" android:hint="@string/register_phone_your_number" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="13" android:layout_weight="1.0" android:layout_below="@id/registration_enter_number_textView" android:inputType="3" android:imeOptions="6" />
+    <Button android:textSize="20dp" android:textColor="0x106000b" android:id="@id/registration_submit" android:background="@drawable/selector_button" android:layout_width="80dp" android:layout_height="-2" android:layout_marginTop="15dp" android:minHeight="0dp" android:text="@string/ok" android:layout_below="@id/registration_phone" android:layout_centerHorizontal="true" />
+    <TextView android:gravity="5" android:id="@id/registration_description_textView" android:paddingRight="40dp" android:layout_width="-1" android:layout_height="50dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/register_sms_one_time" android:layout_weight="1.0" android:layout_below="@id/registration_submit" />
+</RelativeLayout>

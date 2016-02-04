@@ -1,0 +1,16 @@
+version: 2.0.1
+apkFileName: Fanoos.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '11'
+  targetSdkVersion: '21'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '15'
+  versionName: '2.22'
+compressionType: false
+sharedLibrary: false

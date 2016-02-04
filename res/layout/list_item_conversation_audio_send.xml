@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="5" android:id="@id/hadi" android:paddingLeft="50dp" android:paddingRight="0dp" android:layout_width="280dp" android:layout_height="140dp" android:minWidth="80dp">
+    <ImageView android:layout_gravity="30" android:id="@id/conversation_userImage_imageView" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+    <ImageView android:layout_gravity="11" android:id="@id/conversation_retry_imageView" android:visibility="2" android:longClickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="5dp" android:src="@drawable/ic_retry" android:layout_toLeftOf="@id/conversation_RelativeLayout" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/conversation_RelativeLayout" android:background="@drawable/balloon_broadcast_outgoing_normal" android:layout_width="140dp" android:layout_height="80dp" android:layout_marginTop="19dp" android:layout_marginBottom="5dp" android:minWidth="70dp" android:layout_toLeftOf="@id/conversation_userImage_imageView">
+        <FrameLayout android:id="@id/conversation_FrameLayout" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_gravity="11" android:id="@id/conversation_play_image_imageView" android:padding="8dp" android:visibility="0" android:longClickable="true" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/audio_play" />
+            <ProgressBar android:layout_gravity="35" android:id="@id/progressBar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        </FrameLayout>
+        <ImageView android:id="@id/conversation_deliveryStatus_ImageView" android:paddingLeft="2dp" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-3dp" android:src="@drawable/message_unsent" android:layout_alignLeft="@id/conversation_FrameLayout" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="9sp" android:id="@id/conversation_time_textView" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="-4dp" android:layout_marginRight="6dp" android:layout_marginBottom="2dp" android:text="8:33AM" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="9sp" android:id="@id/conversation_fileSize_textView" android:paddingBottom="3dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="47 mB" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="20dp" android:id="@id/conversation_audio_timer_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

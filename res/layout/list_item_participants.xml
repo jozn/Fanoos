@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffff" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="90dp">
+    <ImageView android:id="@id/Participants_item_imageContact_imageView" android:paddingLeft="2dp" android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="3dp" android:src="@drawable/ic_contact_picture_default" android:scaleType="1" android:layout_alignParentRight="true" />
+    <TextView android:textSize="18dp" android:textStyle="1" android:textColor="#000000" android:id="@id/Participants_item_userName_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:layout_marginRight="5dp" android:layout_toLeftOf="@id/Participants_item_imageContact_imageView" android:layout_centerVertical="true" />
+    <TextView android:textSize="18dp" android:textStyle="1" android:textColor="@color/splash_background" android:id="@id/Participants_item_adminName_textView" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="3dp" android:text="مدیرگروه" android:layout_alignTop="@id/Participants_item_imageContact_imageView" />
+</RelativeLayout>

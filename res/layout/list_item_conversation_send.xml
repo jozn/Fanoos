@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="5" android:layout_gravity="5" android:id="@id/hadi" android:paddingLeft="50dp" android:paddingRight="0dp" android:layout_width="-1" android:layout_height="-2" android:layoutDirection="1">
+    <LinearLayout android:layout_gravity="35" android:orientation="1" android:id="@id/conversation_messageBox_LinearLayout" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="19dp" android:layout_weight="1.0" android:layout_toLeftOf="@id/conversation_userImage_imageView">
+        <TextView android:gravity="5" android:autoLink="f" android:layout_gravity="5" android:id="@id/conversation_message_textView" android:paddingLeft="5dp" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="3dp" android:layout_marginBottom="10dp" android:text=" messenger" />
+        <LinearLayout android:layout_width="-2" android:layout_height="-2" android:weightSum="2.0">
+            <ImageView android:layout_gravity="3" android:id="@id/conversation_deliveryStatus_ImageView" android:visibility="0" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginLeft="5dp" android:src="@drawable/message_got_receipt_from_server" android:layout_weight="1.0" />
+            <TextView android:textSize="12sp" android:gravity="3" android:layout_gravity="3" android:id="@id/conversation_time_textView" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="-4dp" android:layout_marginRight="3dp" android:layout_marginBottom="2dp" android:text="8:fffffffffffffffffffffffffff " android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="30" android:id="@id/conversation_userImage_imageView" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/verification_background" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/registration_header_RL" android:background="@color/splash_background" android:layout_width="-1" android:layout_height="150dp">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/enter_number_title_fanoos" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/create_group_groupIcon_Frame_frameLayout" android:layout_width="125dp" android:layout_height="125dp" android:layout_marginTop="20dp" android:layout_below="@id/registration_header_RL" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/create_group_icon_imageView" android:layout_width="-1" android:layout_height="-1" android:src="@drawable/ic_contact_picture_default" android:scaleType="3" />
+        <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@drawable/profile_image_mask" android:scaleType="1" />
+    </FrameLayout>
+    <TextView android:gravity="5" android:id="@id/create_group_guide_textView" android:paddingRight="20dp" android:layout_width="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/group_create_title" android:layout_weight="1.0" android:layout_below="@id/create_group_groupIcon_Frame_frameLayout" style="@style/Text.Description" />
+    <EditText android:textColor="#ff000000" android:textColorHint="#ff888888" android:gravity="15" android:id="@id/create_group_name_editText" android:background="0x106000b" android:paddingRight="20dp" android:layout_width="-1" android:layout_height="50dp" android:hint="نام گروه" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="20" android:layout_weight="1.0" android:layout_below="@id/create_group_guide_textView" android:imeOptions="6" />
+    <Button android:textSize="20dp" android:textColor="0x106000b" android:id="@id/create_group_submit_button" android:background="@drawable/selector_button" android:layout_width="150dp" android:layout_height="70dp" android:layout_marginTop="15dp" android:text="مرحله بعد" android:layout_below="@id/create_group_name_editText" android:layout_centerHorizontal="true" />
+</RelativeLayout>

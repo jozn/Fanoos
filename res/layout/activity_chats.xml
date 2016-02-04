@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/toolBar_header_background_normal" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="-20dp" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_width="-1" android:layout_height="-1" android:weightSum="4.0">
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_header_frame_menu1_frameLayout" android:background="@color/toolBar_header_background_press" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_header_menu1_imageView" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_recent_chat" android:scaleType="7" android:layout_weight="1.0" android:layout_centerVertical="true" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_header_frame_menu2_frameLayout" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_header_menu2_imageView" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_new_chat" android:layout_weight="1.0" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_header_frame_menu3_frameLayout" android:visibility="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <TextView android:textSize="12dp" android:textColor="#ffffff" android:gravity="11" android:layout_gravity="11" android:layout_width="-2" android:layout_height="-1" android:text="نسخه آزمایشی v.2.22" />
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_header_menu3_imageView" android:visibility="1" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/ic_new_chat" android:layout_weight="1.0" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_header_frame_menu4_frameLayout" android:background="@color/toolBar_header_background_normal" android:visibility="0" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_header_menu4_imageView" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_refresh" android:layout_weight="1.0" />
+                <ProgressBar android:layout_gravity="11" android:id="@id/toolbar_header_frame_refresh_progressBar" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" style="?unknown_attr_ref: 1010289" />
+            </FrameLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.Toolbar android:id="@id/toolbarFooter" android:background="@color/toolBar_footer_background_normal" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="-20dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_width="-1" android:layout_height="-1" android:weightSum="4.0">
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_footer_frame_menu1_frameLayout" android:background="@drawable/selector_toolbar_button" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_footer_menu1_imageView" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_search" android:scaleType="7" android:layout_weight="1.0" android:layout_centerVertical="true" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_footer_frame_menu2_frameLayout" android:background="@drawable/selector_toolbar_button" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_footer_menu2_imageView" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_contact" android:layout_weight="1.0" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_footer_frame_menu3_frameLayout" android:background="@drawable/selector_toolbar_button" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_footer_menu3_imageView" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_create_group" android:layout_weight="1.0" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_footer_frame_menu4_frameLayout" android:background="@drawable/selector_toolbar_button" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_footer_menu4_imageView" android:layout_width="50dp" android:layout_height="40dp" android:src="@drawable/ic_setting" android:layout_weight="1.0" />
+            </FrameLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.Toolbar android:id="@id/toolbarSearchFooter" android:background="@color/toolBar_footer_background_normal" android:visibility="2" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="-20dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_width="-1" android:layout_height="-1" android:weightSum="4.0">
+            <FrameLayout android:layout_gravity="11" android:id="@id/toolbar_footer_frame_search_frameLayout" android:background="@drawable/selector_toolbar_button" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="11" android:id="@id/toolbar_footer_search_imageView" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_search" android:scaleType="7" android:layout_weight="1.0" android:layout_centerVertical="true" />
+            </FrameLayout>
+            <EditText android:textColor="#ffffff" android:textColorHint="#d0d0d0" android:gravity="11" android:layout_gravity="11" android:id="@id/toolbar_footer_search_editText" android:layout_width="0dp" android:layout_height="-2" android:hint="جستجو" android:singleLine="true" android:layout_weight="3.0" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout android:id="@id/container" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/toolbarFooter" android:layout_below="@id/toolbar" />
+</RelativeLayout>

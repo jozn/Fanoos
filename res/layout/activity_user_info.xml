@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/toolBar_header_background_normal" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="-20dp" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textSize="20dp" android:textColor="#ffffff" android:id="@id/userInfo_name_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:text="" android:layout_alignParentRight="true" />
+            <TextView android:textSize="12dp" android:textColor="#ffffff" android:id="@id/userInfo_status_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:text="" android:layout_below="@id/userInfo_name_textView" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/toolbar">
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+            <FrameLayout android:id="@id/userInfo_profileImage_frameLayout" android:background="#afaeae" android:layout_width="-1" android:layout_height="220dp">
+                <ImageView android:layout_gravity="11" android:id="@id/userInfo_profileImage_imageView" android:layout_width="160dp" android:layout_height="163dp" android:layout_marginLeft="50dp" android:layout_marginTop="20dp" android:layout_marginRight="50dp" android:layout_marginBottom="20dp" android:src="@drawable/ic_contact_picture_default" android:scaleType="3" />
+            </FrameLayout>
+            <LinearLayout android:gravity="11" android:id="@id/userInfo_contact_frameLayout" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_below="@id/userInfo_profileImage_frameLayout">
+                <Button android:textColor="#ffffff" android:id="@id/userInfo_call_button" android:background="@drawable/selector_button" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginRight="20dp" android:text="تماس" />
+                <Button android:textColor="#ffffff" android:id="@id/userInfo_sms_button" android:background="@drawable/selector_button" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginLeft="20dp" android:text="پیام رایگان" />
+            </LinearLayout>
+            <TextView android:textSize="20dp" android:textColor="#000000" android:id="@id/userInfo_registration_phone" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:text="" android:layout_below="@id/userInfo_contact_frameLayout" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.0" />
+            <TextView android:textSize="20dp" android:textColor="#000000" android:id="@id/userInfo_registration_phone_label" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="موبایل" android:layout_below="@id/userInfo_registration_phone" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.0" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

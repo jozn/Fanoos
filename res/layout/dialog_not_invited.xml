@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#fff" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="16sp" android:id="@id/dialog_verify_number_title_textView" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp" android:layout_marginBottom="30dp" android:text="متاسفانه برای  شما دعوتنامه ای ارسال نشده است" />
+    <View android:background="#dfdfdf" android:layout_width="-1" android:layout_height="1dp" />
+    <TextView android:textSize="17sp" android:textStyle="1" android:textColor="#0e6a9d" android:gravity="11" android:layout_gravity="11" android:id="@id/dialog_error_server_button" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="قبول" android:layout_weight="1.0" />
+</LinearLayout>

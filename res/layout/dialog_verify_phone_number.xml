@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#fff" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="16sp" android:id="@id/dialog_verify_number_title_textView" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp" android:text="@string/alert_verify_phone_number" />
+    <TextView android:textSize="16sp" android:id="@id/dialog_verify_phone_number_textView" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:text="" />
+    <TextView android:textSize="16sp" android:id="@id/dialog_verify_are_u_sure_textView" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:layout_marginBottom="30dp" android:text="@string/alert_verify_phone_number_are_you_sure" />
+    <View android:background="#dfdfdf" android:layout_width="-1" android:layout_height="1dp" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:weightSum="2.0">
+        <TextView android:textSize="17sp" android:textColor="#0e6a9d" android:gravity="11" android:layout_gravity="11" android:id="@id/dialog_verify_are_u_sure_edit_button" android:layout_width="0dp" android:layout_height="-1" android:text="@string/edit" android:layout_weight="1.0" />
+        <View android:background="#dfdfdf" android:layout_width="1dp" android:layout_height="-1" />
+        <TextView android:textSize="17sp" android:textStyle="1" android:textColor="#0e6a9d" android:gravity="11" android:layout_gravity="11" android:id="@id/dialog_verify_are_u_sure_ok_button" android:layout_width="0dp" android:layout_height="-1" android:text="@string/ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

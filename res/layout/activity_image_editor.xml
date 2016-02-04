@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout custom:layout_width="-1" custom:layout_height="-1">
+    <com.edmodo.cropper.CropImageView custom:id="@id/CropImageView" custom:layout_width="-1" custom:layout_height="-1" custom:layout_above="@id/image_editor_linearLayout" custom:layout_centerInParent="true" />
+    <LinearLayout custom:id="@id/image_editor_linearLayout" custom:layout_width="-1" custom:layout_height="70dp" custom:weightSum="2.0" custom:layout_alignParentBottom="true">
+        <Button custom:id="@id/image_editor_ok_button" custom:layout_width="0dp" custom:layout_height="-1" custom:text="تایید" custom:layout_weight="1.0" />
+        <Button custom:id="@id/image_editor_cancel_button" custom:layout_width="0dp" custom:layout_height="-1" custom:text="لغو" custom:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

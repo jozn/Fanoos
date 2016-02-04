@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/footer_drawer_frameLayout" android:background="#ffffff" android:layout_width="-1" android:layout_height="202dp" android:layout_alignParentBottom="true">
+    <GridView android:id="@id/conversation_add_media_gridView" android:background="#ffffff" android:visibility="2" android:scrollbars="0" android:layout_width="-1" android:layout_height="-2" android:horizontalSpacing="2dp" android:verticalSpacing="2dp" android:columnWidth="100dp" android:numColumns="-1" />
+    <RelativeLayout android:id="@id/conversation_sticky_frame_relativeLayout" android:visibility="2" android:layout_width="-1" android:layout_height="202dp">
+        <LinearLayout android:id="@id/conversation_sticky_frame_tab_relativeLayout" android:background="#ff747876" android:layout_width="-1" android:layout_height="60dp" android:layout_marginRight="60dp">
+            <ImageView android:layout_gravity="11" android:id="@id/conversation_sticky_tab_imageView" android:layout_width="35dp" android:layout_height="35dp" android:layout_margin="5dp" android:src="@drawable/ic_sticky_tab" />
+            <ImageView android:layout_gravity="11" android:id="@id/conversation_emotion_tab_imageView" android:layout_width="35dp" android:layout_height="35dp" android:layout_margin="5dp" android:src="@drawable/e32_21" />
+        </LinearLayout>
+        <ImageView android:id="@id/conversation_sticky_backspace_imageView" android:layout_width="50dp" android:layout_height="40dp" android:layout_marginLeft="3dp" android:layout_marginTop="10dp" android:layout_marginRight="3dp" android:src="@drawable/ic_action_backspace" android:layout_alignParentRight="true" />
+        <GridView android:id="@id/conversation_sticky_gridView" android:layout_width="-1" android:layout_height="-2" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:columnWidth="150dp" android:numColumns="-1" android:layout_below="@id/conversation_sticky_frame_tab_relativeLayout" />
+        <GridView android:id="@id/conversation_emotion_gridView" android:layout_width="-1" android:layout_height="-2" android:horizontalSpacing="5dp" android:verticalSpacing="5dp" android:columnWidth="50dp" android:numColumns="-1" android:layout_below="@id/conversation_sticky_frame_tab_relativeLayout" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/conversation_record_frame_relativeLayout" android:visibility="2" android:layout_width="-1" android:layout_height="202dp">
+        <ImageView android:id="@id/conversation_record_imageView" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_action_free_record" android:layout_centerInParent="true" />
+        <TextView android:textSize="25dp" android:textColor="#ff5889ff" android:id="@id/conversation_record_timer_TextView" android:paddingLeft="5dp" android:paddingTop="100dp" android:layout_width="-2" android:layout_height="-2" android:text="60" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@id/setting_profileImage_frameLayout" android:background="#afaeae" android:layout_width="-1" android:layout_height="-2"
+        <FrameLayout android:layout_gravity="31" android:layout_width="160dp" android:layout_height="163dp" android:layout_marginLeft="50dp" android:layout_marginRight="50dp">
+            <ImageView android:id="@id/group_info_item_imageContact_imageView" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_margin="2dp" android:src="@drawable/ic_contact_picture_default" android:scaleType="3" />
+            <ProgressBar android:layout_gravity="11" android:id="@id/change_photo_progress" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 1010289" />
+        </FrameLayout>
+        <RelativeLayout android:gravity="51" android:layout_gravity="51" android:layout_width="-2" android:layout_height="180dp">
+            <TextView android:textColor="#000000" android:id="@id/group_info_item_participate_Count_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="2 از 110" android:layout_toLeftOf="@id/group_info_item_participate_textView" />
+            <TextView android:textColor="#000000" android:id="@id/group_info_item_participate_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" android:text="اعضای گروه" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textSize="22dp" android:textColor="#444444" android:gravity="15" android:id="@id/group_info_name_textView" android:background="#ffffff" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="50dp" android:text="نام گروه" android:layout_below="@id/setting_profileImage_frameLayout" />
+    <ImageView android:layout_gravity="11" android:id="@id/group_info_item_edit_imageView" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp" android:layout_marginBottom="2dp" android:src="@drawable/btn_edit" android:scaleType="1" android:layout_below="@id/setting_profileImage_frameLayout" />
+    <View android:id="@id/divider" android:background="#afaeae" android:layout_width="-1" android:layout_height="2dp" android:layout_below="@id/group_info_name_textView" />
+    <ListView android:id="@id/addParticipants_list" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/divider" />
+</RelativeLayout>

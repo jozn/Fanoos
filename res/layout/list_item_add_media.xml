@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#ebeff0" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_gravity="11" android:id="@id/item_add_media_image_imageView" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/ic_add_gallery" />
+</LinearLayout>

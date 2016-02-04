@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <Button android:textSize="20dp" android:textColor="0x106000b" android:layout_gravity="11" android:id="@id/create_group_submit_button" android:background="@drawable/selector_button" android:layout_width="80dp" android:layout_height="-2" android:layout_marginTop="15dp" android:minHeight="0dp" android:text="تایید" android:layout_below="@id/create_group_name_editText" android:layout_centerHorizontal="true" />
+</LinearLayout>

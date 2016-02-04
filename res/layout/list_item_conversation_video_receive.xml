@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_gravity="3" app:paddingLeft="0dp" app:paddingRight="10dp" app:layout_width="250dp" app:layout_height="150dp" app:minWidth="70dp"
+    <RelativeLayout app:id="@id/conversation_RelativeLayout" app:background="@drawable/balloon_broadcast_incoming_normal" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="19dp" app:layout_marginBottom="5dp" app:minWidth="70dp" app:layout_toRightOf="@id/conversation_userImage_imageView">
+        <TextView app:textSize="12sp" app:textColor="#ff646465" app:id="@id/conversation_nickName_textView" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="2dp" app:layout_marginTop="2dp" app:text="hhhdd" app:maxLength="40" />
+        <FrameLayout app:id="@id/conversation_FrameLayout" app:layout_width="150dp" app:layout_height="150dp" app:layout_margin="5dp" app:layout_below="@id/conversation_nickName_textView" app:layout_alignWithParentIfMissing="true">
+            <ImageView app:layout_gravity="11" app:id="@id/conversation_image_imageView" app:padding="5dp" app:visibility="0" app:longClickable="true" app:layout_width="150dp" app:layout_height="150dp" app:scaleType="6" />
+            <ImageView app:layout_gravity="11" app:id="@id/conversation_video_play_imageView" app:visibility="0" app:layout_width="50dp" app:layout_height="50dp" app:src="@drawable/video_play" />
+            <ProgressBar app:layout_gravity="35" app:id="@id/progressBar" app:visibility="2" app:layout_width="-2" app:layout_height="-2" />
+        </FrameLayout>
+        <ImageView app:id="@id/conversation_deliveryStatus_ImageView" app:paddingBottom="3dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="-3dp" app:src="@drawable/message_unsent" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true" />
+        <TextView app:textSize="9sp" app:id="@id/conversation_time_textView" app:paddingBottom="3dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="2dp" app:layout_marginRight="2dp" app:layout_marginBottom="2dp" app:text="8:33AM" app:layout_below="@id/conversation_FrameLayout" app:layout_alignRight="@id/conversation_FrameLayout" />
+        <TextView app:textSize="9sp" app:id="@id/conversation_fileSize_textView" app:paddingBottom="3dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="-3dp" app:text="" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true" style="@*style/Widget.ProgressBar.Horizontal" />
+        <ProgressBar app:id="@id/progress_1" app:visibility="1" app:layout_width="160dp" app:layout_height="5dp" app:layout_alignParentBottom="true" style="@*style/Widget.ProgressBar.Horizontal" />
+    </RelativeLayout>
+    <ImageView app:layout_gravity="30" app:id="@id/conversation_userImage_imageView" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/default_profile_image" app:layout_alignParentLeft="true" />
+</RelativeLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="day_array">
+        <item>>اول</item>
+        <item>دوم</item>
+        <item>سوم</item>
+        <item>چهارم</item>
+        <item>پنجم</item>
+        <item>ششم</item>
+        <item>هفت</item>
+        <item>هشت</item>
+        <item>نه</item>
+        <item>ده</item>
+        <item>یازده</item>
+        <item>دوازده</item>
+        <item>سیزده</item>
+        <item>چهارده</item>
+        <item>پانزده</item>
+        <item>شانزده</item>
+        <item>هفده</item>
+        <item>هجده</item>
+        <item>نوزده</item>
+        <item>بیست</item>
+        <item>بیست و یک</item>
+        <item>بیست و دوم</item>
+        <item>بیست و سوم</item>
+        <item>بیست و چهار</item>
+        <item>بیست و پنج</item>
+        <item>بیست و شش</item>
+        <item>بیست و هفت</item>
+        <item>بیست و هشت</item>
+        <item>بیست و نه</item>
+        <item>سی</item>
+        <item>سی و یک</item>
+    </string-array>
+    <string-array name="emotion_array">
+        <item>e32_01</item>
+        <item>e32_02</item>
+        <item>e32_03</item>
+        <item>e32_04</item>
+        <item>e32_05</item>
+        <item>e32_06</item>
+        <item>e32_07</item>
+        <item>e32_08</item>
+        <item>e32_09</item>
+        <item>e32_10</item>
+        <item>e32_11</item>
+        <item>e32_12</item>
+        <item>e32_13</item>
+        <item>e32_14</item>
+        <item>e32_15</item>
+        <item>e32_16</item>
+        <item>e32_17</item>
+        <item>e32_18</item>
+        <item>e32_19</item>
+        <item>e32_20</item>
+        <item>e32_21</item>
+        <item>e32_22</item>
+        <item>e32_23</item>
+        <item>e32_24</item>
+        <item>e32_25</item>
+        <item>e32_26</item>
+        <item>e32_27</item>
+        <item>e32_28</item>
+        <item>e32_29</item>
+        <item>e32_30</item>
+        <item>e32_31</item>
+        <item>e32_32</item>
+        <item>e32_33</item>
+        <item>e32_34</item>
+        <item>e32_35</item>
+        <item>e32_36</item>
+        <item>e32_37</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>فروردین</item>
+        <item>اردیبهشت</item>
+        <item>خرداد</item>
+        <item>تیر</item>
+        <item>مرداد</item>
+        <item>شهریور</item>
+        <item>مهر</item>
+        <item>آبان</item>
+        <item>آذر</item>
+        <item>دی</item>
+        <item>بهمن</item>
+        <item>اسفند</item>
+    </string-array>
+    <string-array name="sticky_array">
+        <item>sl1</item>
+        <item>sl2</item>
+        <item>sl3</item>
+        <item>sl4</item>
+        <item>sl5</item>
+        <item>sl6</item>
+        <item>sl7</item>
+        <item>sl8</item>
+        <item>sl9</item>
+        <item>sl10</item>
+        <item>sl11</item>
+        <item>sl12</item>
+        <item>sl13</item>
+        <item>sl14</item>
+        <item>sl15</item>
+        <item>sl16</item>
+        <item>sl17</item>
+        <item>sl18</item>
+        <item>sl19</item>
+        <item>sl20</item>
+        <item>sl21</item>
+        <item>sl22</item>
+        <item>sl23</item>
+        <item>sl24</item>
+        <item>sl25</item>
+        <item>sl26</item>
+        <item>sl27</item>
+        <item>sl28</item>
+        <item>sl29</item>
+        <item>sl30</item>
+        <item>sl31</item>
+        <item>sl32</item>
+        <item>sl33</item>
+        <item>sl34</item>
+        <item>sl35</item>
+        <item>sl36</item>
+        <item>sl37</item>
+        <item>sl38</item>
+        <item>sl39</item>
+        <item>sl40</item>
+        <item>sl41</item>
+        <item>sl42</item>
+        <item>sl43</item>
+        <item>sl44</item>
+        <item>sl45</item>
+        <item>sl46</item>
+        <item>sl47</item>
+        <item>sl48</item>
+        <item>sl49</item>
+        <item>sl50</item>
+        <item>sl51</item>
+        <item>sl52</item>
+        <item>sl53</item>
+        <item>sl54</item>
+        <item>sl55</item>
+        <item>sl56</item>
+        <item>sl57</item>
+        <item>sl58</item>
+        <item>sl59</item>
+        <item>sl60</item>
+        <item>sl61</item>
+        <item>sl62</item>
+        <item>sl63</item>
+        <item>sl64</item>
+        <item>sl65</item>
+        <item>sl66</item>
+        <item>sl67</item>
+        <item>sl68</item>
+        <item>sl69</item>
+        <item>sl70</item>
+        <item>sl71</item>
+        <item>sl72</item>
+        <item>sl73</item>
+        <item>sl74</item>
+        <item>sl75</item>
+        <item>sl76</item>
+        <item>sl77</item>
+        <item>sl78</item>
+        <item>sl79</item>
+        <item>sl80</item>
+        <item>sl81</item>
+        <item>sl82</item>
+        <item>sl83</item>
+        <item>sl84</item>
+        <item>sl85</item>
+        <item>sl86</item>
+        <item>sl87</item>
+        <item>sl88</item>
+        <item>sl89</item>
+        <item>sl90</item>
+        <item>sl91</item>
+        <item>sl92</item>
+        <item>sl93</item>
+        <item>sl94</item>
+        <item>sl95</item>
+        <item>sl96</item>
+        <item>sl97</item>
+        <item>sl98</item>
+    </string-array>
+    <string-array name="week_array">
+        <item>شنبه</item>
+        <item>یکشنبه</item>
+        <item>دوشنبه</item>
+        <item>سه شنبه</item>
+        <item>چهار شنبه</item>
+        <item>پنجشنبه</item>
+        <item>جمعه</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="5" android:paddingLeft="10dp" android:paddingRight="0dp" android:layout_width="280dp" android:layout_height="150dp" android:minWidth="70dp">
+    <ImageView android:layout_gravity="30" android:id="@id/conversation_userImage_imageView" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+    <ImageView android:layout_gravity="11" android:id="@id/conversation_retry_imageView" android:visibility="2" android:longClickable="true" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="5dp" android:src="@drawable/ic_retry" android:layout_toLeftOf="@id/conversation_RelativeLayout" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/conversation_RelativeLayout" android:background="@drawable/balloon_broadcast_outgoing_normal" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="19dp" android:layout_marginBottom="5dp" android:minWidth="70dp" android:layout_toLeftOf="@id/conversation_userImage_imageView">
+        <FrameLayout android:id="@id/conversation_FrameLayout" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp">
+            <ImageView android:layout_gravity="11" android:id="@id/conversation_image_imageView" android:visibility="0" android:longClickable="true" android:layout_width="150dp" android:layout_height="150dp" android:src="@drawable/default_video" android:scaleType="6" />
+            <ImageView android:layout_gravity="11" android:id="@id/conversation_video_play_imageView" android:visibility="0" android:layout_width="55dp" android:layout_height="55dp" android:src="@drawable/video_play" />
+            <ProgressBar android:layout_gravity="35" android:id="@id/progressBar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        </FrameLayout>
+        <ImageView android:id="@id/conversation_deliveryStatus_ImageView" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-3dp" android:src="@drawable/message_unsent" android:layout_alignRight="@id/conversation_FrameLayout" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="9sp" android:id="@id/conversation_time_textView" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_marginBottom="2dp" android:text="8:33AM" android:layout_below="@id/conversation_FrameLayout" android:layout_alignLeft="@id/conversation_FrameLayout" />
+        <TextView android:textSize="9sp" android:id="@id/conversation_fileSize_textView" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:text="47 mB" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

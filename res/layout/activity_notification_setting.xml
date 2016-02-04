@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/toolBar_header_background_normal" android:layout_width="-1" android:layout_height="60dp" android:layout_marginLeft="-20dp" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:layout_gravity="11" android:id="@id/toolbar_header_back_imageView" android:padding="12dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_back" android:layout_centerVertical="true" />
+            <TextView android:textSize="22dp" android:textColor="#ffffff" android:layout_gravity="15" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="تنظیمات" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <TextView android:id="@id/notification_group_notifyTitle_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginRight="5dp" android:text="اعلان پیام جدید برای گروه" android:layout_below="@id/toolbar" android:layout_alignParentRight="true" />
+    <RadioGroup android:id="@id/notification_group_notifyTitle_radioGroup" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:layout_below="@id/notification_group_notifyTitle_textView" android:layout_alignParentRight="true">
+        <RadioButton android:id="@id/notification_on_group_radioButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="روشن" />
+        <RadioButton android:id="@id/notification_off_group_radioButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="خاموش" />
+    </RadioGroup>
+    <TextView android:id="@id/notification_user_notifyTitle_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:text="اعلان پیام جدید برای گفتگوهای شخصی" android:layout_below="@id/notification_group_notifyTitle_radioGroup" android:layout_alignParentRight="true" />
+    <RadioGroup android:id="@id/notification_user_notifyTitle_radioGroup" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:layout_below="@id/notification_user_notifyTitle_textView" android:layout_alignParentRight="true">
+        <RadioButton android:id="@id/notification_on_user_radioButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="روشن" />
+        <RadioButton android:id="@id/notification_off_user_radioButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="خاموش" />
+    </RadioGroup>
+    <Button android:textColor="#ffffff" android:id="@id/notification_save_button" android:background="@drawable/selector_button" android:layout_width="100dp" android:layout_height="55dp" android:text="ثبت" android:layout_below="@id/notification_user_notifyTitle_radioGroup" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="3" android:paddingLeft="0dp" android:paddingRight="50dp" android:layout_width="250dp" android:layout_height="150dp" android:minWidth="70dp">
+    <ImageView android:layout_gravity="30" android:id="@id/conversation_userImage_imageView" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@id/conversation_RelativeLayout" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:minWidth="70dp" android:layout_toRightOf="@id/conversation_userImage_imageView">
+        <TextView android:textSize="12sp" android:textColor="#ffffff" android:id="@id/conversation_nickName_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="2dp" android:text="hhhdd" />
+        <FrameLayout android:id="@id/conversation_FrameLayout" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17dp">
+            <ImageView android:layout_gravity="11" android:id="@id/conversation_image_imageView" android:visibility="0" android:layout_width="150dp" android:layout_height="150dp" />
+        </FrameLayout>
+        <ImageView android:id="@id/conversation_deliveryStatus_ImageView" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-3dp" android:src="@drawable/message_unsent" android:layout_alignLeft="@id/conversation_FrameLayout" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="9sp" android:textColor="#ffffff" android:id="@id/conversation_time_textView" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:text="8:33AM" android:layout_below="@id/conversation_FrameLayout" android:layout_alignRight="@id/conversation_FrameLayout" />
+    </RelativeLayout>
+</RelativeLayout>
